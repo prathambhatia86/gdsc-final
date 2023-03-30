@@ -1,6 +1,6 @@
 # gdsc-final
 This is our gdsc frontend prototype.We have excluded firebase authentication for simplicity and displaying the main motive
-steps for running the proejct-:
+steps for running the project-:
 ->clone this repository in your local PC
 ->open index.html file in your browser
 ->click on lets get started[there is no need to login as this is just a prototype]
