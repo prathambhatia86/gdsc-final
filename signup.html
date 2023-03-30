@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+
+     <!--NAV-->
+     <nav>
+        <section class="flex_content">
+            <strong class="logo"><em class="stroke">GDSC </em> IIITA<em></em> </strong>
+        </section>
+        <section class="flex_content nav_content" id="nav_content">
+            <a href="index.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="login.html" >Login</a>
+            <a href="signup.html" class="active">Join Us</a> 
+            <!-- <button class="login-button" href="#">Login</button>
+            <button class="join-button" href="#">Join</button> -->
+        </section>
+        <section class="flex_content">
+            <a href="javascript:void(0)" class="ham"><i class="fa fa-bars"></i></a>
+        </section>
+    </nav>
+    <!-- Navigation bar ends -->
+
+
+    <script src="https://kit.fontawesome.com/a24879a822.js" crossorigin="anonymous"></script>
+
+<div class="box">
+  <div class="form">
+    <h2>Sign-Up </h2>
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-user"></i>
+      <input type="name" placeholder=" Your name" required='required'>     
+    </div>
+
+    <div class="inputBox">
+      <i class="fa-solid fa-user"></i>
+      <input type="text" placeholder=" Create Username" required='required'>     
+    </div>
+
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-user"></i>
+      <input type="email" placeholder="Email id" required='required'>     
+    </div>
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-lock"></i>
+      <input type="text" placeholder="Password" required='required'>  
+    </div>
+    
+    <div class="inputBox">
+      <i class="fa-solid fa-lock"></i>
+      <input type="text" placeholder=" Confirm Password" required='required'>  
+    </div>
+    
+      <br>
+      <button class="btn">SIGN-UP</button>
+      <br>
+    <!-- <input class='loginButton' type="submit" value="Login"> -->
+    <!-- <h3 style="color: snow;">Join Via </h3>
+    
+
+    <div id="my-signin2" style="margin-left: 250px; display: inline-flex;">
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 50,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
+</div> -->
+
+
+<button class="loginBtn loginBtn--facebook">
+  Login with Facebook
+</button>
+
+<button class="loginBtn loginBtn--google">
+  Login with Google
+</button>
+  
+  </div>
+</div>
+</body>
+</html>

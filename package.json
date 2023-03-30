@@ -1,0 +1,23 @@
+{
+  "name": "gdscproject",
+  "version": "1.0.0",
+  "description": "tweet book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathambhatia86/gdscproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathambhatia86/gdscproject/issues"
+  },
+  "homepage": "https://github.com/prathambhatia86/gdscproject#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "sentiment": "^5.0.2"
+  }
+}

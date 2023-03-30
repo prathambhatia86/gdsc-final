@@ -1,0 +1,31 @@
+{
+  "name": "tweetbook",
+  "version": "1.0.0",
+  "description": "tweet book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathambhatia86/gdscproject/issues"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "install": "^0.13.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "firebase": "^9.17.2",
+    "sentiment": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/prathambhatia86/gdscproject.git"
+  },
+  "homepage": "https://github.com/prathambhatia86/gdscproject#readme"
+}
